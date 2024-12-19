@@ -28,6 +28,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_svg: ^2.0.16
   intl_phone_field: ^3.2.0
+  flutter_otp_text_field: ^1.2.0
+
 
 
 dev_dependencies:
@@ -77,7 +79,7 @@ flutter:
        fonts:
          - asset: assets/fonts/TTSmalls-SemiBold.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
-           weight: 700
+#           weight: 700
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package

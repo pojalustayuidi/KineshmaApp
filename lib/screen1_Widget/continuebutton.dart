@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'Dialog/dialog_already_registred.dart';
+// import 'Dialog/dialog_already_registred.dart';
 
 class ContinueButton extends StatefulWidget {
   final String phoneNumber;
@@ -21,7 +21,7 @@ class _ContinueButtonState extends State<ContinueButton> {
         height: screenHeight * 0.055,
         child: ElevatedButton(
           onPressed: () {
-            _showDialog(context, widget.phoneNumber);
+            Navigator.of(context).pushNamed('/InputVerificationCode');
           },
           style: ElevatedButton.styleFrom(
               backgroundColor: Colors.blueAccent,
@@ -37,10 +37,10 @@ class _ContinueButtonState extends State<ContinueButton> {
   }
 }
 
-void _showDialog(BuildContext context, String phoneNumber) {
-  showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return Dialogalready(phoneNumber: phoneNumber);
-      });
-}
+// void _ShowDialog(BuildContext context, String phoneNumber) {
+//   showDialog(
+//       context: context,
+//       builder: (BuildContext context) {
+//         return Dialogalready(phoneNumber: phoneNumber);
+//       });
+// }

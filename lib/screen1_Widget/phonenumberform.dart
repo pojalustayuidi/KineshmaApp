@@ -2,22 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:flutter/services.dart';
 
-import 'Button.dart';
+import 'continuebutton.dart';
 
-class PhoneNumber extends StatefulWidget {
-  const PhoneNumber({super.key});
+class PhoneNumberForm extends StatefulWidget {
+  const PhoneNumberForm({super.key});
 
   @override
-  State<PhoneNumber> createState() => _PhoneNumberState();
+  State<PhoneNumberForm> createState() => _PhoneNumberFormState();
 }
 
-class _PhoneNumberState extends State<PhoneNumber> {
-  final TextEditingController _phoneController = TextEditingController();
+class _PhoneNumberFormState extends State<PhoneNumberForm> {
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
-    double screenHeight = MediaQuery.of(context).size.height;
-    final TextEditingController _phoneController = TextEditingController();
+    final TextEditingController phoneController = TextEditingController();
 
     return Center(
       child: SizedBox(
@@ -27,7 +25,7 @@ class _PhoneNumberState extends State<PhoneNumber> {
             children: [
               Form(
                 child: IntlPhoneField(
-                  controller: _phoneController,
+                  controller: phoneController,
                   keyboardType: TextInputType.phone,
                   decoration: InputDecoration(
                       labelText: "Phone Number",
@@ -38,7 +36,7 @@ class _PhoneNumberState extends State<PhoneNumber> {
                 ),
 
               ),
-              ContinueButton(phoneNumber: _phoneController.text),
+              ContinueButton(phoneNumber: phoneController.text),
             ],
 
           ),

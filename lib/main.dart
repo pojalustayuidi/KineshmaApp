@@ -1,4 +1,4 @@
-import 'package:KineshmaApp/screens/screen_Register/screen_register.dart';
+import 'package:KineshmaApp/routes/routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'App',
       debugShowCheckedModeBanner: false,
-      home: screenRegister()
+      routes: routes,
+      initialRoute: '/',
+
     );
   }
 }

@@ -1,44 +1,35 @@
-import 'package:KineshmaApp/screen1_Widget/Button.dart';
-import 'package:KineshmaApp/screen1_Widget/Form.dart';
-import 'package:KineshmaApp/screen1_Widget/TextWidget.dart';
-import 'package:KineshmaApp/screen1_Widget/Widget.dart';
+
+import 'package:KineshmaApp/screen_RegisterInfoWidget/TextFill.dart';
 import 'package:flutter/material.dart';
 
-class screenRegisterUI extends StatefulWidget {
-  const screenRegisterUI({super.key});
+class ScreenRegisterInfo extends StatefulWidget {
+  const ScreenRegisterInfo({super.key});
 
   @override
-  State<screenRegisterUI> createState() => _screenRegisterUIState();
+  State<ScreenRegisterInfo> createState() => _ScreenRegisterInfoState();
 }
 
-class _screenRegisterUIState extends State<screenRegisterUI> {
+class ScreenRegisterInfoUI extends StatelessWidget {
+  const ScreenRegisterInfoUI({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [
-        IconsLogo(),
-        SizedBox(
-          height: 50,
-        ),
-        PhoneNumber(),
-        SizedBox(
-          height: 48,
-        ),
-        Spacer(
-          flex: 1,
-        ),
-        TextPhone(),
-        SizedBox(height: 40,)
+      children: [TextInfo()
       ],
     );
   }
 }
 
-class screenRegister extends StatelessWidget {
+
+
+
+class _ScreenRegisterInfoState extends State<ScreenRegisterInfo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: screenRegisterUI(),
+      body: ScreenRegisterInfoUI(),
+      appBar: AppBar(),
     );
   }
 }
