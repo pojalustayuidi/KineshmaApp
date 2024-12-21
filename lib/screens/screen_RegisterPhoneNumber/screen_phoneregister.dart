@@ -1,6 +1,7 @@
-import 'package:KineshmaApp/screen1_Widget/phonenumberform.dart';
-import 'package:KineshmaApp/screen1_Widget/textphone.dart';
-import 'package:KineshmaApp/screen1_Widget/iconlogo.dart';
+
+import 'package:KineshmaApp/screens/screen_RegisterPhoneNumber/screen1_Widget/iconlogo.dart';
+import 'package:KineshmaApp/screens/screen_RegisterPhoneNumber/screen1_Widget/phonenumberform.dart';
+import 'package:KineshmaApp/screens/screen_RegisterPhoneNumber/screen1_Widget/textphone.dart';
 import 'package:flutter/material.dart';
 
 class ScreenRegister extends StatefulWidget {

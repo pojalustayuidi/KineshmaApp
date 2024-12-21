@@ -1,6 +1,6 @@
-import 'package:KineshmaApp/screen1_Widget/iconlogo.dart';
-import 'package:KineshmaApp/screen_inputverWidget/otptextfield.dart';
-import 'package:KineshmaApp/screen_inputverWidget/text_inputverificationcode.dart';
+import 'package:KineshmaApp/screens/screen_InputVerificationCode/screen_inputverWidget/buttonsic.dart';
+import 'package:KineshmaApp/screens/screen_InputVerificationCode/screen_inputverWidget/otptextfield.dart';
+import 'package:KineshmaApp/screens/screen_InputVerificationCode/screen_inputverWidget/text_inputverificationcode.dart';
 import 'package:flutter/material.dart';
 
 class ScreenInputVerificationUI extends StatefulWidget {
@@ -15,7 +15,17 @@ class _ScreenInputVerificationUI extends State<ScreenInputVerificationUI> {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [SizedBox(height: 24,),InputVerification(), SizedBox(height: 48,), OTPTextField()],
+      children: [
+        SizedBox(
+          height: 24,
+        ),
+        InputVerification(),
+        SizedBox(
+          height: 48,
+        ),
+        OTPTextField(),
+        ButtonSec()
+      ],
     );
   }
 }

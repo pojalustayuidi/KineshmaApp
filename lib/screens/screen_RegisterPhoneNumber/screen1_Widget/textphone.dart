@@ -8,7 +8,14 @@ class TextPhone extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text('Have an account yet?',style: TextStyle(fontFamily: 'Poppins-Regular',fontSize: 12),),
+        Text(
+          'Have an account yet?',
+          style: TextStyle(
+              fontFamily: 'Poppins-Regular',
+              fontSize: 12,
+              height: 1.50,
+              fontWeight: FontWeight.w400),
+        ),
         SizedBox(
           width: 1,
         ),
@@ -16,8 +23,9 @@ class TextPhone extends StatelessWidget {
           onPressed: () {},
           child: Text('Login',
               style: TextStyle(
-                color: Colors.blue,
-              fontFamily: 'TTSmalls-SemiBold',fontSize: 18)),
+                  color: Colors.blue,
+                  fontFamily: 'TTSmalls-SemiBold',
+                  fontSize: 18)),
         ),
       ],
     );
