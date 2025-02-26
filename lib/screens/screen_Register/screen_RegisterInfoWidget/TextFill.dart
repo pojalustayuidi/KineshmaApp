@@ -8,7 +8,7 @@ class TextInfo extends StatelessWidget {
     return Column(
     children: [
       Text(
-        'Fill your information below',
+        'Заполните информацию о себе',
         style: TextStyle(
             fontFamily: 'Poppins-Regular',
             fontSize: 20,
@@ -18,7 +18,7 @@ class TextInfo extends StatelessWidget {
       Padding(
         padding: const EdgeInsets.only(right: 16,left: 16),
         child: Text(textAlign: TextAlign.center,
-          'Before use this application, please input your information first.',
+          'Прежде чем использовать это приложение, пожалуйста, сначала введите свою информацию',
           style: TextStyle(
             color: Color(0xFF667085),
               fontFamily: 'Poppins-Regular',

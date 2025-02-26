@@ -11,7 +11,7 @@ class FirstNameText extends StatelessWidget {
           child: Row(
             children: [
               Text(
-                'First Name',
+                'Имя',
             style: TextStyle(color: Color(0xFF344054),
                 fontFamily: 'Poppins-Regular',
                 fontSize: 14,

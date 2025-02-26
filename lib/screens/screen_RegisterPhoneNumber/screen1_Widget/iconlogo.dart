@@ -4,6 +4,6 @@ class IconsLogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(child: Center(child: Column(children: [Image.asset('assets/Logo.png',scale: 0.8,)],)));
+    return SafeArea(child: Center(child: Column(children: [Image.asset('assets/logobus.png',scale: 0.8,)],)));
   }
 }

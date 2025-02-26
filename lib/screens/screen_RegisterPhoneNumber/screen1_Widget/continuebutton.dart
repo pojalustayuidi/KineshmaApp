@@ -24,11 +24,11 @@ class _ContinueButtonState extends State<ContinueButton> {
             Navigator.of(context).pushNamed('/InputVerificationCode');
           },
           style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.blueAccent,
+              backgroundColor: Color(0xFF344E41),
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16))),
           child: Text(
-            'Continue',
+            'Зарегистрироваться',
             style: TextStyle(color: Colors.white),
           ),
         ),

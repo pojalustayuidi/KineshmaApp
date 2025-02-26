@@ -23,7 +23,7 @@ class _EmailFormState extends State<EmailForm> {
                 border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12)
                 ),
-                hintText: 'olivia@gmail.com',hintStyle: TextStyle(
+                hintText: 'olga@gmail.com',hintStyle: TextStyle(
                   color: Color(0xFF101828),
                   fontFamily: 'Poppins-Regular',
                   fontSize: 16,
