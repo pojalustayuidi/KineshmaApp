@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-   <img src="https://img.shields.io/badge/Dart%20%20-grey" alt="Unity Version">
-   <img src="" alt="Game Version">
+   <img src="https://img.shields.io/badge/Dart%20%20-grey" alt="dart">
+   <img src="https://img.shields.io/badge/version%20-%203.5.4%20(stable)-blue" alt="dart Version">
    <img src="" alt="License">
 </p>
 
