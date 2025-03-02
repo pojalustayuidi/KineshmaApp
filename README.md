@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-   <img src="https://img.shields.io/badge/any_text-you_like-blue" alt="Unity Version">
+   <img src="https://img.shields.io/badge/Dart%20%20-grey" alt="Unity Version">
    <img src="" alt="Game Version">
    <img src="" alt="License">
 </p>
