@@ -30,8 +30,8 @@
        - lib/screens/screen_InputVerificationCode/widget_inputverificationcode/buttonsic.dart - кнопка "Продолжить"
        - lib/screens/screen_InputVerificationCode/widget_inputverificationcode/otptextfield.dart - Поле для ввода SMS - Кода
        - lib/screens/screen_InputVerificationCode/widget_inputverificationcode/text_inputverificationcode.dart - Текстовые виджеты экрана Потверждения SMS - Кода
-  - **lib/screens/screen_RegisterProfile** - папка с экраном  Регистрации нового пользователя
-    - lib/screens/screen_RegisterProfile/screen_RegisterInfoWidget - папка с Виджетмами для экрана Регистрации нового пользователя
+- **lib/screens/screen_RegisterProfile** - папка с экраном  Регистрации нового пользователя
+  - **lib/screens/screen_RegisterProfile/screen_RegisterInfoWidget** - папка с Виджетмами для экрана Регистрации нового пользователя
     - lib/screens/screen_RegisterProfile/screen_RegisterInfoWidget/emailform.dart - поле для ввода своего Email
     - lib/screens/screen_RegisterProfile/screen_RegisterInfoWidget/emailtext.dart - текстовый виджет
     - lib/screens/screen_RegisterProfile/screen_RegisterInfoWidget/firstnameform.dart - поле для ввода своего имени
