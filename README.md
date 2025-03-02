@@ -1,6 +1,5 @@
 # KineshMobi
 
-## Getting Started![1](https://github.com/user-attachments/assets/5cf4d72f-a101-4ee1-aa4b-8c47bb7e8ac0)
 
 
 Мобильное приложение для просмотра расписание в городе Кинешма.
