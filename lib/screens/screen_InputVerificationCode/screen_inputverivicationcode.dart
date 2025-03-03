@@ -19,11 +19,12 @@ class _ScreenInputVerificationUI extends State<ScreenInputVerificationUI> {
         SizedBox(
           height: 24,
         ),
-        InputVerification(),
+        InputVerification(phonenumber: '',),
         SizedBox(
           height: 48,
         ),
         OTPTextField(),
+        SizedBox(height: 21,),
         ButtonSec()
       ],
     );

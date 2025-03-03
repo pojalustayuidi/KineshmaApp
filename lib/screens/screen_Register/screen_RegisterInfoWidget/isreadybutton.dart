@@ -1,3 +1,4 @@
+import 'package:KineshmaApp/routes/routes.dart';
 import 'package:flutter/material.dart';
 
 // import 'Dialog/dialog_already_registred.dart';
@@ -27,7 +28,7 @@ class _ReadyButtonState extends State<ReadyButton> {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16))),
           child: Text(
-            'Everything is ready',
+            'Я готов! Продолжить',
             style: TextStyle(
               color: Colors.white,
               fontSize: 14,

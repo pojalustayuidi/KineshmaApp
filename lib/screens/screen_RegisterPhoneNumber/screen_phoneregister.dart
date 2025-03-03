@@ -18,7 +18,9 @@ class ScreenRegisterUI extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
+        SizedBox(height: 30,),
         IconsLogo(),
+        TextUp(),
         SizedBox(
           height: 50,
         ),

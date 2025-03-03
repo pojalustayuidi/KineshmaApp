@@ -1,7 +1,10 @@
+import 'package:KineshmaApp/screens/screen_RegisterPhoneNumber/screen1_Widget/phonenumberform.dart';
 import 'package:flutter/material.dart';
+import 'package:intl_phone_field/phone_number.dart';
 
 class InputVerification extends StatelessWidget {
-  const InputVerification({super.key});
+  final String phonenumber;
+  const InputVerification({required this.phonenumber});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +18,7 @@ class InputVerification extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(top: 12, right: 16, left: 16),
             child: Text(textAlign: TextAlign.center,
-              "We have sent code to your phone number 32456337895232",
+              "We have sent code to your phone number $phonenumber",
               style: TextStyle(fontSize: 14,fontWeight: FontWeight.w400, fontFamily: 'Poppins-Regular',height: 1.43),
             ),
           ),
